@@ -140,6 +140,7 @@ body {
 .button__decrypt {
   background-color: #86ecfe;
   box-shadow: 0 0 4px 0 #00e6ab;
+  color: #101926;
   border: unset;
   border-radius: 24px;
   display: flex;
@@ -249,7 +250,7 @@ body {
     background-color: rgba(9, 45, 93, 0.2);
     border: 2px solid rgba(9, 45, 93, 0.2);
     border-radius: 1rem;
-    margin: 40px 40px 40px 40px;
+    margin: 40px 30px;
     padding: 20px;
   }
 
