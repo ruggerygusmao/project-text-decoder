@@ -281,4 +281,8 @@ body {
     width: 50%;
     padding: 24px;
   }
+
+  #container__result{
+    padding-bottom: 0;
+  }
 }
