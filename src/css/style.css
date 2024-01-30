@@ -39,6 +39,7 @@ body {
   align-items: end;
   padding-right: 30px;
 }
+
 .header__icons {
   display: flex;
   align-items: center;
@@ -242,7 +243,11 @@ body {
   }
 
   .container__input__text {
-    padding: 25px 0 0 90px;
+    padding: 25px 0 0 20px;
+  }
+
+  .container__input__icon h2{
+    font-size: 1.4rem;
   }
 
   .container__image {
@@ -250,7 +255,7 @@ body {
     background-color: rgba(9, 45, 93, 0.2);
     border: 2px solid rgba(9, 45, 93, 0.2);
     border-radius: 1rem;
-    margin: 40px 30px;
+    margin: 40px 20px;
     padding: 20px;
   }
 
@@ -261,6 +266,10 @@ body {
   .container__input__buttons {
     padding: 0;
     margin: 0 10px;
+  }
+
+  .container__input__buttons div { 
+    margin-right: 0;
   }
 
   .button__encryped {
